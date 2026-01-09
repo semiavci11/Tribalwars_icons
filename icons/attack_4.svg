@@ -1,41 +1,41 @@
 
 <svg xmlns='http://www.w3.org/2000/svg'
      width='64' height='64'
-     viewBox='-4 -4 72 72'>
+     viewBox='0 0 64 64'>
 
   <!-- Background -->
-  <rect x='2' y='2' width='60' height='60'
+  <rect x='1' y='1' width='62' height='62'
         rx='14'
         fill='#1e4f8b'
         stroke='#000'
-        stroke-width='4'/>
+        stroke-width='2'/>
 
-  <!-- LEFT AXE -->
-  <path d='M18 20
-           L30 20
-           L26 26
-           L36 36
-           L32 40
-           L22 30
-           L18 34
-           L12 28 Z'
-        fill='rgba(0,0,0,0.85)'/>
+  <!-- AXE 1 -->
+  <g transform='rotate(45 32 32) scale(1.15)'>
+    <!-- Handle -->
+    <rect x='28' y='6' width='8' height='52'
+          rx='4'
+          fill='rgba(0,0,0,0.9)'/>
+    <!-- Blade -->
+    <rect x='14' y='6' width='36' height='18'
+          rx='6'
+          fill='rgba(0,0,0,0.9)'/>
+  </g>
 
-  <!-- RIGHT AXE -->
-  <path d='M46 20
-           L34 20
-           L38 26
-           L28 36
-           L32 40
-           L42 30
-           L46 34
-           L52 28 Z'
-        fill='rgba(0,0,0,0.85)'/>
+  <!-- AXE 2 -->
+  <g transform='rotate(-45 32 32) scale(1.15)'>
+    <rect x='28' y='6' width='8' height='52'
+          rx='4'
+          fill='rgba(0,0,0,0.9)'/>
+    <rect x='14' y='6' width='36' height='18'
+          rx='6'
+          fill='rgba(0,0,0,0.9)'/>
+  </g>
 
   <!-- NUMBER -->
   <text x='32' y='48'
         text-anchor='middle'
-        font-size='40'
+        font-size='42'
         font-weight='900'
         fill='#fff'
         stroke='#000'

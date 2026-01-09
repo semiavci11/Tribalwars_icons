@@ -1,29 +1,30 @@
 
 <svg xmlns='http://www.w3.org/2000/svg'
-     width='64' height='64' viewBox='0 0 64 64'>
+     width='64' height='64'
+     viewBox='0 0 64 64'>
 
   <!-- Background -->
-  <rect x='2' y='2' width='60' height='60'
+  <rect x='1' y='1' width='62' height='62'
         rx='6'
         fill='#2f2f2f'
         stroke='#000'
-        stroke-width='4'/>
+        stroke-width='2'/>
 
-  <!-- BIG SHIELD SILHOUETTE -->
-  <path d='M32 8
-           L54 18
-           L50 42
-           L32 56
-           L14 42
-           L10 18 Z'
-        fill='rgba(0,0,0,0.75)'/>
+  <!-- BIG SHIELD -->
+  <path d='M32 4
+           L60 16
+           L54 46
+           L32 60
+           L10 46
+           L4 16 Z'
+        fill='rgba(0,0,0,0.9)'/>
 
   <!-- NUMBER -->
-  <text x='32' y='42'
+  <text x='32' y='44'
         text-anchor='middle'
-        font-size='40'
+        font-size='42'
         font-weight='900'
-        fill='#ffffff'
+        fill='#fff'
         stroke='#000'
         stroke-width='3'
         paint-order='stroke'>
