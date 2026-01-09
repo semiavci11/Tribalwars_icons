@@ -34,7 +34,7 @@
         font-weight='900'
         fill='#fff'
         stroke='#000'
-        stroke-width='2'
+        stroke-width='6'
         paint-order='stroke'>
     5
   </text>
